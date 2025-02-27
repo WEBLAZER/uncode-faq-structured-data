@@ -1,4 +1,5 @@
 jQuery(document).ready(function($) {
+    console.log('test');
     function generateFAQSchema() {
         const $faqContainer = $('.uncode-accordion');
         if ($faqContainer.length === 0) {
